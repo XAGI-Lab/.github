@@ -6,7 +6,7 @@
 
 **The accountability layer for autonomous AI.**
 
-[**Website**](https://xagilab.com) · [**MELRA**](https://github.com/XAGI-Lab/melra) · [**X / Twitter**](https://twitter.com/xagilabs)
+[**Website**](https://xagilab.com) · [**MELRA**](https://github.com/XAGI-Lab/melra) · [**LinkedIn**](https://www.linkedin.com/company/xagi-labs) · [**X / Twitter**](https://twitter.com/xagilabs)
 
 </div>
 
@@ -200,6 +200,7 @@ Contributions to our public repositories are welcome.
 
 ---
 
+
 ## Get in touch
 
 | | |
@@ -207,6 +208,7 @@ Contributions to our public repositories are welcome.
 | **Website** | [xagilab.com](https://xagilab.com) |
 | **GitHub** | [github.com/XAGI-Lab](https://github.com/XAGI-Lab) |
 | **MELRA** | [github.com/XAGI-Lab/melra](https://github.com/XAGI-Lab/melra) |
+| **LinkedIn** | [linkedin.com/company/xagi-labs](https://www.linkedin.com/company/xagi-labs) |
 | **Email** | hello@xagilab.com |
 | **X / Twitter** | [@xagilabs](https://twitter.com/xagilabs) |
 | **HQ** | India |
