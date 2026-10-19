@@ -63,6 +63,8 @@ MELRA is:
 
 → [**Explore MELRA**](https://github.com/XAGI-Lab/melra)
 
+> **Try MELRA:** [Watch the 26-second demo](https://github.com/user-attachments/assets/e5cf895d-7ea6-4797-a1ef-e69cc5860d3f) · With Node.js 22.13+ or 23.4+: `npx @melra/cli@alpha setup`
+
 ---
 
 ### SOVA
