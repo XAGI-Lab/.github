@@ -6,7 +6,7 @@
 
 **The accountability layer for autonomous AI.**
 
-[**Website**](https://xagilab.com) · [**MELRA**](https://github.com/XAGI-Lab/melra) · [**LinkedIn**](https://www.linkedin.com/company/xagi-labs) · [**X / Twitter**](https://twitter.com/xagilabs)
+[**Website**](https://xagilab.com) · [**MELRA**](https://github.com/XAGI-Lab/melra) · [**Product Hunt launch**](https://www.producthunt.com/products/melra) · [**LinkedIn**](https://www.linkedin.com/company/xagi-labs) · [**X / Twitter**](https://twitter.com/xagilabs)
 
 </div>
 
