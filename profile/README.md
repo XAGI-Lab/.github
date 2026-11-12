@@ -2,7 +2,7 @@
 
 # XAGI Labs
 
-### Where intelligence meets accountability.
+### Control beyond intelligence.
 
 **AI agents that do real work, and the layer that keeps them honest.**
 
@@ -143,7 +143,7 @@ We'd love to hear from:
 
 ### XAGI Labs
 
-**Where intelligence meets accountability.**
+**Control beyond intelligence.**
 
 *Everyone needs a Bhai. Every agent needs a MELRA.*
 
