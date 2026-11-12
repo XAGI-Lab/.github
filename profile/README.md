@@ -72,7 +72,7 @@ MELRA is:
 
 → [**Explore MELRA**](https://github.com/XAGI-Lab/melra)
 
-> **Try MELRA:** [Watch the demo](https://github.com/user-attachments/assets/0d83f430-8a6a-4215-b394-08e028360640) · With Node.js 22.13+ or 23.4+: `npx @melra/cli@alpha setup`
+> **Try MELRA:** [Watch the demo](https://github.com/user-attachments/assets/83987dbd-99bf-4442-969a-066960621762) · With Node.js 22.13+ or 23.4+: `npx @melra/cli@alpha setup`
 
 ---
 
