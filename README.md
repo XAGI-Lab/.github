@@ -4,46 +4,55 @@
 
 ### Where intelligence meets accountability.
 
-**The accountability layer for autonomous AI.**
+**AI agents that do real work, and the layer that keeps them honest.**
 
-[**Website**](https://xagilab.com) · [**MELRA**](https://github.com/XAGI-Lab/melra) · [**LinkedIn**](https://www.linkedin.com/company/xagi-labs) · [**X / Twitter**](https://twitter.com/xagilabs)
+[**Website**](https://xagilab.com) · [**Bhai**](https://bhai.xagilab.com) · [**MELRA**](https://github.com/XAGI-Lab/melra) · [**Product Hunt**](https://www.producthunt.com/products/melra) · [**LinkedIn**](https://www.linkedin.com/company/xagi-labs) · [**X / Twitter**](https://twitter.com/xagilabs)
 
 </div>
 
 ---
 
-## Who we are
+## Our mission
 
-**XAGI Labs** is a frontier AI research lab building the infrastructure required to give autonomous AI real power safely.
+**Give everyone an AI agent they can actually trust with their life admin, and build the infrastructure that makes that trust earned rather than assumed.**
 
-AI systems can increasingly browse, write code, operate computers, move money, modify production systems, and execute multi-step workflows.
-
-The problem is no longer just what AI can do.
-
-It is:
+AI can now browse, fill forms, send messages, book things and operate computers. The hard part is no longer what an agent *can* do. It is:
 
 - **What is it allowed to do?**
-- **What actually happened?**
+- **Did it actually happen?**
 - **Can we prove it?**
-- **How much autonomy should this system be trusted with?**
 
-XAGI sits between AI agents and the systems they act on, enforcing bounded authority, independently verifying outcomes, and producing evidence that can be used to assess how much autonomy an AI system should receive.
+We work on both sides of that problem: **Bhai**, a personal AI agent for everyone, and **MELRA**, the open-source runtime that bounds, verifies and records what agents do.
 
-> **The model does the thinking. XAGI does the allowing, the proving, and the undoing.**
+> **The model does the thinking. MELRA does the allowing, the proving, and the undoing.**
 
 ---
 
 ## What we're building
 
-Our work follows a simple loop:
+### Bhai: everyone needs a Bhai
 
-### Control → Evidence → Rating
+**[Bhai](https://bhai.xagilab.com)** is a personal AI agent you message on **WhatsApp, Telegram or email**. Then you go touch grass.
 
-### MELRA
+It books the flight, fights for the refund, fills the boring form, hunts down the cheaper deal and remembers the birthday before you do.
 
-**MELRA** is XAGI's open-source operating layer for governed AI execution.
+Bhai is built on three things:
 
-It sits between agents and real systems and provides a common control path across:
+- **Memory** that makes you feel known: your people, your preferences, what you asked last week
+- **Reliability** on real tasks: no "done" until the work is actually done, and an honest "I'm stuck" when it isn't
+- **Personality**: the fun, smart, dependable big brother your to-do list always needed
+
+Every message and file Bhai sends on your behalf runs through MELRA, so "sent" means the provider confirmed it, not that the agent said so.
+
+→ [**Get early access**](https://bhai.xagilab.com) (invite-only for now) · [**@oyybhai on X**](https://x.com/oyybhai)
+
+---
+
+### MELRA: the accountability layer
+
+**[MELRA](https://github.com/XAGI-Lab/melra)** is XAGI's open-source runtime for governed AI execution.
+
+It sits between agents and the systems they act on, with one control path across:
 
 - Files
 - Terminal
@@ -52,166 +61,81 @@ It sits between agents and real systems and provides a common control path acros
 - Memory
 - External tools
 
-Actions pass through policy evaluation, scoped permissions, approvals, verification, receipts, and execution certificates.
+Every action passes through policy checks, scoped permissions, approvals where needed, evidence-based verification, receipts and execution certificates. Outcomes that can't be confirmed are parked for inspection instead of blindly retried.
 
 MELRA is:
 
 - Model-agnostic
 - Agent-framework agnostic
-- Designed to run inside the customer's environment
-- Open source under Apache 2.0
+- Designed to run inside your own environment
+- Open source
 
 → [**Explore MELRA**](https://github.com/XAGI-Lab/melra)
 
+> **Try MELRA:** [Watch the 26-second demo](https://github.com/user-attachments/assets/e5cf895d-7ea6-4797-a1ef-e69cc5860d3f) · With Node.js 22.13+ or 23.4+: `npx @melra/cli@alpha setup`
+
 ---
 
-### SOVA
+## Why both
 
-**SOVA** is our work on verifiable evidence for autonomous systems.
+Bhai is MELRA's toughest customer.
 
-A `.sova` capsule describes a behaviour, its operating context, required evidence, trials, and limitations.
-
-A `.sova-trace` records observable events and their causal relationships so claims about an AI system can be evaluated against what actually happened rather than what the agent or tool provider says happened.
-
-The goal is simple:
+A personal agent that sends your messages, signs you up for things and touches your money cannot run on "trust me". Building Bhai forces MELRA to handle the messy real world, and MELRA lets Bhai take on real work without asking you to take its word for it.
 
 > **Don't trust "success." Prove the effect.**
 
 ---
 
-### TRUSCOR
-
-**TRUSCOR** is XAGI's rating and assurance layer.
-
-Using evidence collected from deployed systems and adversarial evaluations, TRUSCOR is being developed to answer a harder question:
-
-> **How much autonomy can this AI system actually be trusted with?**
-
-The long-term objective is to turn AI behaviour from something organisations merely observe into exposure that can be **measured, compared, rated, and eventually priced**.
-
----
-
-## Why this matters
-
-Enterprise AI increasingly fails at the same boundary.
-
-The agent works.
-
-Then someone asks:
-
-> *What is the worst this system can do, how do we limit it, how would we prove what happened, and who carries the risk if it goes wrong?*
-
-Today, those questions rarely have satisfactory answers.
-
-We believe autonomous AI needs the same infrastructure that other high-consequence technologies eventually developed:
-
-**a limit, a record, and a rating.**
-
-That is the layer XAGI is building.
-
----
-
-## What we deliberately don't build
-
-Independence matters.
-
-XAGI does **not** build:
-
-- AI agents for customers
-- General-purpose agent applications
-- Agent frameworks
-- Business workflows that make decisions for users
-- Remediation products based on our own findings
-- General-purpose AI observability tools
-
-We also do not rate systems built by XAGI itself.
-
-A company selling the thing being evaluated has an obvious interest in the answer.
-
-We intend to build the independent layer underneath the ecosystem instead.
-
----
-
-## Research & engineering
-
-Our work currently spans:
-
-- Autonomous AI accountability
-- Policy-governed agent execution
-- AI permission and authority systems
-- Verifiable execution and evidence
-- Adversarial AI evaluation
-- AI autonomy and trust ratings
-- Agent risk measurement
-- Computer-use safety
-- Evidence provenance and causal tracing
-- AI assurance infrastructure
-- Long-running agent reliability
-- Machine-generated evidence standards
-
-Our engineering and research are developed with a simple rule:
+## How we work
 
 > **If we haven't measured it, we don't claim it.**
 
-Negative results, incomplete evidence, and failed experiments are part of the record too.
+Every change to Bhai is measured on real tasks before it ships, and negative results and failed experiments are part of the record too.
+
+Our work spans:
+
+- Personal AI agents and long-running task reliability
+- Agent memory and personalisation
+- Computer-use and browser agents
+- Policy-governed agent execution
+- Verifiable execution and evidence
+- AI permission and authority systems
+- Computer-use safety
 
 ---
 
 ## Open source
 
-We believe critical infrastructure for AI accountability should be inspectable.
-
-MELRA is open source, and parts of our evidence architecture and research are being developed publicly so developers, researchers, security teams, and enterprises can inspect the assumptions rather than simply trust our marketing.
-
-Because apparently building systems that ask people to *trust the trust system* would be a rather spectacular design failure.
-
----
-
-## The long-term direction
-
-Today:
-
-**Bound AI → Record what happened → Rate autonomy**
-
-Over time:
-
-**Measure exposure → Build loss history → Make AI risk priceable and transferable**
-
-The ambition is not to build another agent.
-
-It is to build the infrastructure that allows an entire ecosystem of agents to operate with real authority without asking organisations to operate on blind trust.
-
----
-
-## Get involved
-
-We're interested in working with:
-
-- AI infrastructure engineers
-- Security researchers
-- Agent developers
-- Enterprise AI teams
-- Red-teamers
-- Evidence and provenance researchers
-- Risk and insurance researchers
-- Open-source contributors
+Infrastructure that asks you to trust it should be inspectable. MELRA is open source so developers, researchers, security teams and enterprises can read the assumptions instead of trusting our marketing.
 
 Contributions to our public repositories are welcome.
 
 ---
 
+## Get involved
+
+We'd love to hear from:
+
+- AI and agent engineers
+- Security researchers and red-teamers
+- Agent developers who want verified actions
+- Early Bhai users with tasks they hate doing
+- Open-source contributors
+
+---
 
 ## Get in touch
 
 | | |
 | --- | --- |
 | **Website** | [xagilab.com](https://xagilab.com) |
-| **GitHub** | [github.com/XAGI-Lab](https://github.com/XAGI-Lab) |
+| **Bhai** | [bhai.xagilab.com](https://bhai.xagilab.com) |
 | **MELRA** | [github.com/XAGI-Lab/melra](https://github.com/XAGI-Lab/melra) |
+| **GitHub** | [github.com/XAGI-Lab](https://github.com/XAGI-Lab) |
 | **LinkedIn** | [linkedin.com/company/xagi-labs](https://www.linkedin.com/company/xagi-labs) |
+| **X / Twitter** | [@xagilabs](https://twitter.com/xagilabs) · [@oyybhai](https://x.com/oyybhai) |
 | **Email** | hello@xagilab.com |
-| **X / Twitter** | [@xagilabs](https://twitter.com/xagilabs) |
-| **HQ** | India |
+| **HQ** | Kerala, India |
 
 ---
 
@@ -221,6 +145,6 @@ Contributions to our public repositories are welcome.
 
 **Where intelligence meets accountability.**
 
-*Building the limit, the record, and the rating for autonomous AI.*
+*Everyone needs a Bhai. Every agent needs a MELRA.*
 
 </div>
