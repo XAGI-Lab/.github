@@ -134,6 +134,7 @@ We'd love to hear from:
 | **GitHub** | [github.com/XAGI-Lab](https://github.com/XAGI-Lab) |
 | **LinkedIn** | [linkedin.com/company/xagi-labs](https://www.linkedin.com/company/xagi-labs) |
 | **X / Twitter** | [@xagilabs](https://twitter.com/xagilabs) · [@oyybhai](https://x.com/oyybhai) |
+| **Founders** | Dheeraj S and Bhavana Sanal |
 | **Email** | hello@xagilab.com |
 | **HQ** | Kerala, India |
 
